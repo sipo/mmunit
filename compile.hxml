@@ -1,0 +1,4 @@
+-cp src
+--no-output
+--macro Main.main()
+-lib munit
