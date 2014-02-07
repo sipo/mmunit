@@ -1,4 +1,4 @@
-package ;
+package jp.sipo.mmunit;
 /**
  * 今のところマクロ専用。
  * エラーをキャッチし、呼び出し元関数の位置としてコンソール警告を出す
@@ -11,7 +11,7 @@ import haxe.macro.Context;
 import sys.io.File;
 import haxe.io.Bytes;
 import massive.munit.Assert;
-class MacroAssert
+class MAssert
 {
 	public static function areEqual(expected:Dynamic, actual:Dynamic, ?pos:PosInfos)
 	{

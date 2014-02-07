@@ -7,13 +7,14 @@ package ;
  * @author sipo
  */
 
+import jp.sipo.mmunit.MAssert;
 class Main 
 {
 	
 	static function main() 
 	{
-		MacroAssert.areEqual("A", "A");
-		MacroAssert.areEqual("A", "B");
+		MAssert.areEqual("A", "A");
+		MAssert.areEqual("A", "B");
 	}
 	
 }
